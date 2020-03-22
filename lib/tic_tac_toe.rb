@@ -87,4 +87,10 @@ def won?()
   end
 end
 
+def full?()
+  @board.all? do |position|
+    position == "X" || position == "O"
+  end
+end
+
 end

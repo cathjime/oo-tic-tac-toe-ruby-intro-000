@@ -13,4 +13,6 @@ class TicTacToe
   [0,4,8], #diagonal1
   [2,4,6] #diagonal2
 ]
+
+
 end

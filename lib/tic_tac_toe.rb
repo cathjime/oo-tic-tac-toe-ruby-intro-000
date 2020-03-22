@@ -15,7 +15,7 @@ class TicTacToe
 ]
 
 def display_board()
-  puts [" "," "," "," "," "," "," "," "," "]
+  puts @board 
 end
 
 end

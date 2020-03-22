@@ -68,4 +68,23 @@ def turn()
   end
 end
 
+def won?()
+  WIN_COMBINATIONS.detect do |combos|   #changed from detect to each
+    win_index_1 = combos[0]
+    win_index_2 = combos[1]
+    win_index_3 = combos[2]
+    position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
+    position_3 = board[win_index_3]
+
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      return combos
+    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      return combos
+    else
+      false
+    end
+  end
+end
+
 end

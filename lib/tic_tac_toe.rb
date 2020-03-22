@@ -14,12 +14,12 @@ class TicTacToe
   [2,4,6]
 ]
 
-def display_board(array)
-  puts " #{array[0]} | #{array[1]} | #{array[2]} "
+def display_board(board)
+  puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
   puts "-----------"
-  puts " #{array[3]} | #{array[4]} | #{array[5]} "
+  puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
   puts "-----------"
-  puts " #{array[6]} | #{array[7]} | #{array[8]} "
+  puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
 end
 
 end

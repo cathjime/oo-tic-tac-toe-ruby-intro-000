@@ -2,12 +2,6 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-class TicTacToe.new
-  def initialize(board = [" "," "," "," "," "," "," "," "," "])
-    @board = board
-  end
-  
 puts "Welcome to Tic Tac Toe!"
-display_board()
-
-play()
+game = TicTacToe.new
+game.play 

@@ -101,4 +101,12 @@ def over?()
   draw?() || won?()
 end
 
+def winner()
+  if won?()
+    # binding.pry
+     combo = won?()
+     @board[combo[0]]
+  end
+end
+
 end

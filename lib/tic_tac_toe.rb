@@ -69,7 +69,7 @@ def turn()
 end
 
 def won?()
-  WIN_COMBINATIONS.detect do |combos|   #changed from detect to each
+  WIN_COMBINATIONS.detect do |combos|   
     win_index_1 = combos[0]
     win_index_2 = combos[1]
     win_index_3 = combos[2]

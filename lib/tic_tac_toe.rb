@@ -95,6 +95,12 @@ end
 
 def draw?()
   full?() && !won?()
+  #   true
+  # # elsif !full?(board) && !won?(board)
+  # #   false
+  # else
+  #   false
+  # end
 end
 
 end

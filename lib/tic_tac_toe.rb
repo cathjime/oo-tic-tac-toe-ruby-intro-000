@@ -4,7 +4,7 @@ class TicTacToe
   end
 
   WIN_COMBINATIONS = [
-  [0,1,2], 
+  [0,1,2],
   [3,4,5],
   [6,7,8],
   [0,3,6],
@@ -14,8 +14,12 @@ class TicTacToe
   [2,4,6]
 ]
 
-def display_board(board)
-  board
+def display_board(array)
+  puts " #{array[0]} | #{array[1]} | #{array[2]} "
+  puts "-----------"
+  puts " #{array[3]} | #{array[4]} | #{array[5]} "
+  puts "-----------"
+  puts " #{array[6]} | #{array[7]} | #{array[8]} "
 end
 
 end
